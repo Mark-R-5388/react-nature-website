@@ -1,0 +1,11 @@
+.link_list {
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.link_list_link {
+  font-size: 2rem;
+  margin: 0 0.25em;
+}
