@@ -17,13 +17,13 @@ const Climate = () => {
         <p>Click a climate to go to its page</p>
 
         <ul className="climate_links">
-          <Link href="/climates/desert">
+          <Link href="/climates/jungle">
             <a className="climate_link_item">
               <span>Jungle</span>
               <img src={jungleMain.src} alt="main jungle" />
             </a>
           </Link>
-          <Link href="/climates/jungle">
+          <Link href="/climates/desert">
             <a className="climate_link_item">
               <span>desert</span>
               <img src={desertMain.src} alt="main desert" />
